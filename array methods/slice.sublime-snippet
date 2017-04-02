@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:otherArray}.slice(${2:1-start},${3:3-end});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-array-slice(1start, 6end)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>slice array to new array</description>
+  <scope>source.js</scope>
+</snippet>

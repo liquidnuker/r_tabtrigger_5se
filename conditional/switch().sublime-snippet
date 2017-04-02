@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+switch(${1:var1}) {
+case ${2:"text0"}:
+  ${3://console.log();}
+break;
+
+case ${4:"text1"}:
+  //console.log();
+break;
+
+default:
+  //console.log();
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-cond-switch()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>switch(var)</description>
+  <scope>source.js</scope>
+</snippet>

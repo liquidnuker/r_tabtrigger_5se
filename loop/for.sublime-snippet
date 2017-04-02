@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+for (var ${1:i} = 0, l = ${2:list}.length; ${1:i} < l; ${1:i}++) {
+  ${3:}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-loop-for</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>loop-for({default...</description>
+  <scope>source.js</scope>
+</snippet>

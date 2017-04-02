@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+${1:Math.E        // Euler
+Math.PI       // PI
+Math.SQRT2    // square root of 2
+Math.SQRT1_2  // square root of 1/2}
+${2:Math.LN2      // logarithm of 2
+Math.LN10     // logarithm of 10
+Math.LOG2E    // base 2 log of E
+Math.LOG10E   // base 10 log of E}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-math-constants</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>math.PI,SQRT,LOG2E...</description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${2:var position = str.}lastIndexOf("${1:text1}");
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-str-lastIndexOf()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>last occurence ret -1 if none</description>
+  <scope>source.js</scope>
+</snippet>

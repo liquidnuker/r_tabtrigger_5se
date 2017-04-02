@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+document.
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>document</tabTrigger>
+  <description>js dom document.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

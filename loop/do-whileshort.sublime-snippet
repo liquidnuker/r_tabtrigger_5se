@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+do {
+  ${1:text += "<br>The number is" + i;
+  i++;}
+}
+while (${2:i < 10})
+  ${3:// console.log(text);}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>do-while</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>loop-do{while{default...</description>
+  <scope>source.js</scope>
+</snippet>

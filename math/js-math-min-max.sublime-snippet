@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+Math.${1:min}(${2:0, 150, -8, }200);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-math-min-max</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>math-min(number)</description>
+  <scope>source.js</scope>
+</snippet>

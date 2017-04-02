@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:varCondition} = (${2:length < 18}) ? "${3:if}" : "${4:else}"; // console.log(${1:varCondition});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-cond-else-if-modified</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>cond (length = 18) ? "if" : "else"</description>
+  <scope>source.js</scope>
+</snippet>

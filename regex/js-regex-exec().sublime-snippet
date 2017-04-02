@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+/${1:x}/.exec(${2:text});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-regex-exec()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>search str ret foundStr</description>
+  <scope>source.js</scope>
+</snippet>

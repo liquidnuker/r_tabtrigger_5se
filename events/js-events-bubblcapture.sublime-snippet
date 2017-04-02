@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+document.getElementById("${1:p-inside-div}").addEventListener("${2:click}", function () {
+  ${3:// div first: capturing}
+}, true);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-event-bubblcapture</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>!IE9 addEventListener</description>
+  <scope>source.js</scope>
+</snippet>

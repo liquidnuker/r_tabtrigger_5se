@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+Math.ceil(${1:4.4});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-math-ceil(4.4)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>math(roundoff nearest)</description>
+  <scope>source.js</scope>
+</snippet>

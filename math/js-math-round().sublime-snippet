@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+Math.round(${1:4.4});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-math-round()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>Math.round(num)</description>
+  <scope>source.js</scope>
+</snippet>

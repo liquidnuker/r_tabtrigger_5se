@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+Object.defineProperties(${1:objName}, {
+  "${2:key1}": {
+    value: ${3:"str1"},
+    writable: true
+  }
+});
+console.log(${1:objName});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-obj-defineProperties</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>obj assignKeyVal #4</description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+attachEvent("${1:click}", function () {
+  ${2:}
+}, true);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>attachEvent()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>js-attachEvent handler</description>
+  <scope>source.js</scope>
+</snippet>

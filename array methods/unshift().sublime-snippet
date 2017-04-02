@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+unshift("${1:item1}");
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-array-unshift()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>addElementBeginning-olderElementsUp</description>
+  <scope>source.js</scope>
+</snippet>

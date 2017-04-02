@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+str.slice(${1:start7,end9});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-str-slice(start6,end8)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>extract-str.slice()</description>
+  <scope>source.js</scope>
+</snippet>

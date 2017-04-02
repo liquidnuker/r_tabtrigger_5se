@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+push("${1:newElement}");
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-arr-push()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>push(newElement) at the end</description>
+  <scope>source.js</scope>
+</snippet>

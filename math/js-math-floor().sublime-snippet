@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+Math.floor(${1:4.7});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-math-floor()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>math-floor(rounds down)</description>
+  <scope>source.js</scope>
+</snippet>

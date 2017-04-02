@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${2:text1.}concat(${1:"text2","text3",var2});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-str-concat()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>concat(join var1,var2...)</description>
+  <scope>source.js</scope>
+</snippet>

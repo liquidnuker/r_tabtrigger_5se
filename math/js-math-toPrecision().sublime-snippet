@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${2:var x = 9.656; x.}toPrecision(${1:2});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-math-toPrecision()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>ret num specified length.00</description>
+  <scope>source.js</scope>
+</snippet>

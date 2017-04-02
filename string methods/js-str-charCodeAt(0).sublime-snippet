@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:var1}.charCodeAt(${2:2});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-str-charCodeAt(index)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>ret unicode from char(index0)</description>
+  <scope>source.js</scope>
+</snippet>

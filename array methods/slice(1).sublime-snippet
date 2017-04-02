@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:otherArray}.slice(${2:1-AllExceptThisIndex});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-array-slice(1)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>slice 1-AllExceptThisIndex</description>
+  <scope>source.js</scope>
+</snippet>

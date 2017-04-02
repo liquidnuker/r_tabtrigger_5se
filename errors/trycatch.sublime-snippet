@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+try {
+  ${1:// cccconsole.log();}
+  ${2:// if(inputNumber === "") throw "empty field";}
+}
+catch(err) {
+  // console.log(err.message);
+}
+${3:// finally {
+//   // console.log();
+// }}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-err-trycatch</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>js try{..}catch(err){...</description>
+  <scope>source.js</scope>
+</snippet>

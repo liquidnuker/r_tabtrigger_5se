@@ -1,0 +1,68 @@
+<snippet>
+  <content><![CDATA[
+${1:// abstract  
+// boolean
+// break
+// byte
+// case
+// catch
+// char
+// class
+// const
+// continue
+
+// else
+// enum
+// export
+// extends
+
+// false
+// final
+// finally
+// float
+// for
+// function
+// goto
+
+// if
+// implements
+// import
+// in
+// instanceof
+// int
+// interface
+
+// long
+// native
+// new
+// null
+// package
+// private
+// protected
+// public
+// return
+// short
+// static
+// super
+
+// switch
+// synchronized
+// this
+// throw
+// throws
+// transient
+// true
+// try
+// typeof
+// var
+// void
+// volatile
+// while
+// with}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-reserved-words</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>js-reserved-words</description>
+  <scope>source.js</scope>
+</snippet>
