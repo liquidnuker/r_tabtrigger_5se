@@ -5,6 +5,6 @@ unshift("${1:item1}");
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>js-array-unshift()</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <description>addElementBeginning-olderElementsUp</description>
+  <description>add el begin, shift up</description>
   <scope>source.js</scope>
 </snippet>
