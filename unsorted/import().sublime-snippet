@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const ${1:zz} = (resolve) => import("${2:../.js}").then(resolve);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-import()-require</tabTrigger>
+  <description>js babel-plugin-syntax-dynamic-import</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

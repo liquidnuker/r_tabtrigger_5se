@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+function ${1:importTrigger}() {
+  import('${2:.js}')
+    .then(function() {
+      ${3:}
+    })
+    .catch(err => console.log('${4:error loading chunk}', err));
+};
+
+${1:importTrigger}();
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-import()-fn() {...</tabTrigger>
+  <description>js babel-plugin-syntax-dynamic-import</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
