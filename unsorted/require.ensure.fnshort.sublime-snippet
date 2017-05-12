@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+function ${1:requireTrigger}() {
+  require.ensure([], function(require) {
+    let ${2:zz} = require('${3:../js}');
+    }, function(err) {
+      console.error('error loading chunk' + err);
+  },'${4:chunkName}');
+};
+
+${1:requireTrigger}();
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>require.ensure fn(){...</tabTrigger>
+  <description>webpack function(){require.ensure([]...</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
