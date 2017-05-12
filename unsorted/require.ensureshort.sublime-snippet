@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+const ${1:Component1} = resolve => {
+  require.ensure(['${2:Component1.js}'], () => {
+    resolve(require('${2:Component1.js}'))
+  })
+};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>require.ensure</tabTrigger>
+  <description>webpack require.ensure = resolve =&gt;{...</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
