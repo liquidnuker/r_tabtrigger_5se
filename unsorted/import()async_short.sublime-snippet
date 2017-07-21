@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const ${1:comp1} = () => import('${2:./}');
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-import-async</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>comp1 = () =&gt; import('short')</description>
+  <scope>source.jsx, source.js, source.vue</scope>
+</snippet>
