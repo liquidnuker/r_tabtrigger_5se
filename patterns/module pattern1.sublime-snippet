@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+const ${1:fn} = (function () {
+  ${3:}
+
+  return {
+    ${2:init: start}
+  };
+})();
+
+export {${1:fn}};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-pattern-module</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
