@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
-for (var ${1:i} = 0, l = ${2:list}.length; ${1:i} < l; ${1:i}++) {
-  ${3:}
+for (let i = 0, l = ${1:arr}.length; i < l; i++) {
+  ${2:console.log(${1:arr}[i]);}
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>js-loop-for</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <description>loop-for({default...</description>
-  <scope>source.js</scope>
+  <description>for (let i = 0, i++){...</description>
+  <scope>source.js, source.jsx</scope>
 </snippet>
