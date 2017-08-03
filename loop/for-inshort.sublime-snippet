@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
-for (${1:x} in ${2:var1}) {
-  ${3:txt += ${2:var1}[${1:x}];}
+for (let ${1:i} in ${2:x}) {
+  ${4:console.log(${2:x}[${1:i}].${3:value});}
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>for-in</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <description>for(x in var){default...</description>
+  <description>js for(let i in x){...</description>
   <scope>source.js</scope>
 </snippet>
