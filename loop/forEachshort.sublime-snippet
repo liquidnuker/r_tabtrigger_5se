@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+${1:arr}.forEach(function(i) {
+    ${2:console.log(i);}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>forEach</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>js arr.forEach(function(i){...</description>
+  <scope>source.js, source.jsx</scope>
+</snippet>
