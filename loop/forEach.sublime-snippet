@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-${1:arr}.forEach(function(i) {
-    ${2:console.log(i);}
+${1:arr}.forEach(function(i${2:, index, array}) {
+    ${3:console.log(i + " " + index);}
 });
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
