@@ -2,6 +2,7 @@
   <content><![CDATA[
 ${2:let ${1:args} = Array.prototype.slice.call(arguments);}
 ${3:let ${1:args} = Array.from(arguments);}
+${4:let ${1:args} = [...arguments];}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>js-arguments-array</tabTrigger>
