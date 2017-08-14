@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+set ${1:current}(${2:param}) {
+  ${3:}  
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>set-setter(){...</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>js setter(){...</description>
+  <scope>source.js</scope>
+</snippet>
