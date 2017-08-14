@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+${2:let ${1:args} = Array.prototype.slice.call(arguments);}
+${3:let ${1:args} = Array.from(arguments);}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-arguments-array</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>function args to array</description>
+  <scope>source.js</scope>
+</snippet>
