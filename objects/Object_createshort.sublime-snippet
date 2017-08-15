@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+let ${1:inh} = Object.create(${2:fromThisObj});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>object-create()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>js Object.create() inherit method</description>
+  <scope>source.js</scope>
+</snippet>
