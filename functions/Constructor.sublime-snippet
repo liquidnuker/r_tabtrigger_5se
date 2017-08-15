@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+function ${1:Cname}() {
+  ${4:this.${2:prop1} = ${3:};}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>function-Constructor()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>js function Constructor(){...</description>
+  <scope>source.js</scope>
+</snippet>
