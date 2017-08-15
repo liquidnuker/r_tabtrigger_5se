@@ -1,6 +1,10 @@
 <snippet>
   <content><![CDATA[
-prototype.${1:newPropertyMethod} = ${2:value}
+${1:ObjName}.prototype = {
+  ${2:method1}: ${3:function() {
+    ${4:}
+  \}}
+}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>prototype</tabTrigger>
