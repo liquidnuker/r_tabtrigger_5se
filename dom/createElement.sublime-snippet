@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
-innerHTML = ${1:};
+createElement("${1:div}");
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>innerHTML</tabTrigger>
+  <tabTrigger>js-dom-createElement()</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <description>js-dom-innerHTML="set"</description>
+  <description>document.createElement()</description>
   <scope>source.js</scope>
 </snippet>
