@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+// ret array with val/s found
+// "arr": [
+// {
+//   "key": "val",
+//   ...
+// }...
+const arr_filter = function (${1:arr}, ${2:key}, ${3:val}) {
+  let af = ${1:arr}.filter(function (el) {
+    return el[${2:key}] === ${3:val};
+  });
+  return af;
+};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-h-arr-filter</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>array filter helper</description>
+  <scope>source.js</scope>
+</snippet>
