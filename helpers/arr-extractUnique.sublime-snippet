@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+// ret array of unique key: val
+// "arr": [
+// { 
+//   "key": "key2"
+// },
+// { 
+//   "key": "key2" 
+// ...
+const arr_extractUnique = function (arr, key) {
+  let o = {};
+  let temp = [];
+  for (let i = 0, l = arr.length; i < l; i++) {
+    if (!o[arr[i][key]]) {
+      o[arr[i][key]] = true;
+      temp.push(arr[i][key]);
+      // temp.push(arr[i].key);
+    }
+  }
+  return temp;
+};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-h-arr-extractUnique</tabTrigger>
+  <description>array extract unique helper</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
